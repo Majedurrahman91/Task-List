@@ -1,0 +1,51 @@
+
+body{
+  background-color: antiquewhite;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  font-size: 5rem;
+ align-items: center;
+ 
+}
+
+.container {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 0 15px #000;
+  border: 2px solid rgb(116, 114, 114);
+  border-radius: 15px;
+  background-color: burlywood;
+}
+.container:hover{
+  box-shadow:  0.2rem 0.2rem 0.2rem #222, -0.2rem 0 0.2rem #222;
+  
+  
+}
+
+
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0.8rem 1rem 0 ;
+}
+
+
+
+.btn {
+  border: none;
+  border: 0.1rem solid;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  background-color: aqua;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+}
+ .btn:hover{
+  background-color:white;
+}
